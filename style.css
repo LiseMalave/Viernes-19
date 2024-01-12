@@ -8,14 +8,16 @@
 :root{
     --bg--nav: #cdaa39d9;
     --border--secondary:#edb913;
-
+    --bg:#192319;
     --primary:#fff;
+    --letter-secondary:rgb(164, 159, 159);
 }
 body{
     color: var(--primary);
     text-decoration: none;
     font-family: "Bebas Neue", sans-serif;
     font-size: 20px;
+    height: 250vh;
     /* background: #b48505;
 background: linear-gradient(90deg,#b48505 25%, #000000 80%); */
 background: var(--bg--nav);
@@ -77,4 +79,54 @@ background: -moz-radial-gradient(circle farthest-side at top left, #d5ce91 10%, 
     
 }
 
+.hero__container{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 200px;
+
+}
+
+.hero__img__container{
+    display: flex;
+    justify-content: center;
+    width: 580px;
+    height: 580px;
+   background-color: #19231933;
+   margin-top: 100px;
+   box-shadow: 1px 1px 30px 61px rgba(0, 0, 0, 0.162);
+   border-radius: 60%;
+   
+   
+    
+}
+
+.hero__img__container img{
+    width: 600px;
+
+}
+
+.hero__info__container{
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    letter-spacing: 1px;
+    
+}
+.hero__info__container h1{
+    font-size: 50px;
+}
+
+.hero__info__container p{
+    color: var(--letter-secondary);
+}
+
+.hero__info__container button{
+    background-color: none;
+    padding: 5px 10px;
+}
 
