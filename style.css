@@ -236,23 +236,55 @@ hero section */
     height: 70vh;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: start;
 }
 .about__info{
     display: flex;
-    gap: 100px;
-    width: 75%;
+   
+    width: 60%;
+    background-color: #edba1308;
     height: 50vh;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: end;
+    padding: 40px;
     align-items: start;
+ 
+}
+.about__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: start;
+    line-height: 30px;
+    
+    width: 40%;
+    height: 55%;
+   
+}
+.about__info h4{
+    font-size: 39px;
+    letter-spacing: 1px;
+   padding: 20px 0;
+
 }
 
 .about__container video{
-    width: 550px;
-    height: 400px;
+    width: 50%;
+    height: 100%;
     background-color: #c3971113;
     border-radius: 15px;
     
+}
+
+.about__btn{
+    border: solid;
+    padding: 15px 20px;
+    border-radius: 22px;
+}
+
+.about__btn:hover{
+    background-color: var(--bg--nav);
+    box-shadow: 10px 10px 59px 0px var(--bg--nav);
+   
 }
