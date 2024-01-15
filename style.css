@@ -20,11 +20,15 @@
 body{
     color: var(--primary);
     font-family: "Bebas Neue", sans-serif;
-    font-size: 20px;
-    background: var(--bg--nav);
+    font-size: 21px;
+    /* background: var(--bg--nav);
     background: radial-gradient(circle farthest-side at top left, #cdaa39d9 18%, #6d6d3d 55%, #192319 80%);
     background: -webkit-radial-gradient(circle farthest-side at top left, #cdaa39d9 10%, #6d6d3d 40%, #192319 80%);
-    background: -moz-radial-gradient(circle farthest-side at top left, #cdaa39d9 10%, #6d6d3d 40%, #192319 80%);
+    background: -moz-radial-gradient(circle farthest-side at top left, #cdaa39d9 10%, #6d6d3d 40%, #192319 80%); */
+    background: #cdaa395b;
+background: linear-gradient(0deg,#cdaa395b 10%, #6d6d3d 55%, #192319 80%);
+background: -webkit-linear-gradient(0deg,#cdaa395b 10%, #6d6d3d 55%, #192319 80%);
+background: -moz-linear-gradient(0deg,#cdaa39de 10%, #6d6d3d 55%, #192319 80%);
 
 
 }
@@ -178,7 +182,7 @@ hero section */
 .cards__container{
     width: 98%;
     height: 80vh;
-    /* background-color: aliceblue; */
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -187,9 +191,9 @@ hero section */
 }
 
 .cards__container h3{
-    font-size: 30px;
+    font-size: 39px;
     letter-spacing: 1px;
-    text-decoration: underline;
+    
 }
 
 .card__block{
@@ -198,7 +202,7 @@ hero section */
     justify-content: center;
     align-items: end;
     gap: 10px;
-    width: 85%;
+    width: 80%;
     height: 79vh;
 }
 
@@ -246,7 +250,9 @@ hero section */
     display: flex;
    
     width: 60%;
-    background-color: #edba1308;
+    background-color: #edba131a;
+    border: 2px double var(--border--secondary);
+    border-radius: 20px;
     height: 50vh;
     flex-direction: column;
     flex-wrap: wrap;
@@ -297,6 +303,7 @@ hero section */
 .contacto__info{
     width: 35%;
     background-color: #6d6d3d7e;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
