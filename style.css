@@ -10,11 +10,12 @@
 
 :root{
     --bg--nav: #cdaa39d9;
+    --bg--header:#000;
     --border--secondary:#edb913;
     --bg:#192319;
     --bg--cards:#19231948;
     --primary:#fff;
-    --letter-secondary:rgb(164, 159, 159);
+    --letter-secondary:rgb(210, 207, 207);
 }
 body{
     color: var(--primary);
@@ -32,7 +33,7 @@ body{
 .container__header{
     width: 100%;
     height: 88px;
-    background-color: black;
+    background-color: var(--bg--header);
     border-bottom: 2px double var(--border--secondary);
     display: flex;
     justify-content: center;
@@ -293,10 +294,64 @@ hero section */
 }
 /* contact section */
 
+.contacto__info{
+    width: 35%;
+    background-color: #6d6d3d7e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contacto__info h4{
+    font-size: 39px;
+    padding: 20px
+}
+
 .contacto__container{
     margin-top: 100px;
     width: 100%;
     height: 60vh;
     display: flex;
     justify-content: space-evenly;
+}
+
+.contacto__form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   justify-content: center;
+    width: 25%;
+   
+}
+
+.contacto__map{
+    width: 30%;
+    height: 60vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    margin-top: 100px;
+    background-color: var(--bg--header);
+    border-top: 2px double var(--border--secondary);
+}
+.footer__container{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+.footer__container img{
+    height: 30px;
+    width: 30px;
+    background-color: var(--border--secondary);
+    border-radius: 8px;
 }
