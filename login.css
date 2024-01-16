@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
-#registro{
+
+
+#login{
     width: 100%;
     height: 82.5vh;
     background: var(--bg--nav);
@@ -13,7 +15,7 @@
     align-items: center;
 }
 
-.container__registro{
+.container__login{
     background-color: var(--bg--cards);
     gap: 8px;
     border-radius: 20px;
@@ -24,26 +26,62 @@
     align-items: center;
     justify-content: center;
     padding: 45px 35px 30px 55px;
-
+    
 }
-.container__registro input{
+.container__login h1{
+    text-shadow: 19px 5px 6px rgba(0,0,0,0.6);
+}
+.container__login p{
+    font-size: 17px;
+    font-family: 'Oswald', sans-serif;
+}
+.login__form{
+    display: flex;
+    width: 20rem;
+    flex-direction: column;
+   
+}
+
+
+.container__login input{
     background-color: var(--bg);
     padding: 5px 0;
     width: 300px;
     border: none;
     border-radius: 2px;
 }
-.container__registro h1{
-    text-shadow: 19px 5px 6px rgba(0,0,0,0.6);
-}
-.registro__info label,p{
+
+.container__login p{
     color: var(--letter-secondary);
-    font-size: 18px;
 }
-.registro__info{
-    font-family: 'Oswald', sans-serif;
+.container__login button{
+    width: 300px;
+    padding:  8px 20px;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+    background-color: var(--bg--cards);
+    border-radius: 8px;
+    margin: 15px 0;
 }
 
-.registro__info{
+.container__login button:hover{
+    background-color: var(--bg);
+    
+} 
 
+.login__info{
+    display: flex;
+    width: 20.5rem;
+    justify-content:start;
+   flex-wrap: wrap;
+    gap: 10px;
+   
+}
+
+.login__info p{
+    color: var(--letter-secondary);
+}
+
+.login__info a{
+    font-weight: 600;
 }
