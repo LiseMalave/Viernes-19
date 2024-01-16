@@ -233,13 +233,26 @@ hero section */
     width: 250px;
     text-align: center;
 }
+.card__text:hover{
+    transform: translate(0px,-32px);
+    -webkit-transform: translate(0px,-32px); 
+    -moz-transform: translate(0px,-42px);
+   
+/* transform: scale(1.2) translate(1px,-4px);
+-webkit-transform: scale(1.2) translate(1px,4px);
+-moz-transform: scale(1.2) translate(1px,4px); */
+    background-color: #000000e6;
+    box-shadow: -1px 66px 50px 6px rgba(0,0,0,0.34);
+    
+  
+}
 
 /* section about */
 
 #about{
     margin-top: 80px;
     width: 100%;
-    height: 90vh;
+    height: 95vh;
     
     display: flex;
     justify-content: space-around;
@@ -302,16 +315,19 @@ hero section */
 /* contact section */
 
 .contacto__container{
-    margin-top: 100px;
+    /* margin-top: 150px; */
     width: 100%;
-    height: 50vh;
+    height: 89vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
+   
     margin-bottom: 100px;
    
 }
 .contacto__info{
     width: 35%;
+    height: 350px;
     background-color: #6d6d3d7e;
     border-radius: 20px;
     display: flex;
@@ -358,7 +374,33 @@ hero section */
 .contacto__form input{
     padding: 3px 10px;
 }
+/* fotos section */
+#fotos{
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    justify-content:space-evenly;    
+    align-items: center;
+    flex-direction: column;
+    font-size: 38px;
+}
 
+.container__fotos{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+
+}
+.container__fotos img{
+    width: 420px;
+    height: 280px;
+    border-radius: 10px;
+
+}
+
+/* footer section */
 footer{
     width: 100%;
     height: 80px;
