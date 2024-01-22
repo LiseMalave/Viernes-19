@@ -57,6 +57,7 @@ background: -moz-linear-gradient(0deg,#cdaa39de 10%, #6d6d3d 55%, #192319 80%);
 }
 .nav__bar{
     width: 60%;
+  
     display: flex;
     justify-content: center;
     
@@ -298,7 +299,7 @@ hero section */
 }
 .about__info{
     display: flex;
-   
+
     width: 65%;
     background-color: #edba131a;
     border: 2px double var(--border--secondary);
