@@ -62,6 +62,9 @@ background: -moz-linear-gradient(0deg,#cdaa39de 10%, #6d6d3d 55%, #192319 80%);
     justify-content: center;
     
 }
+.menu-label, #menu-toggle{
+    display: none;
+  }
 
 .nav__bar__list{
     display: flex;
@@ -102,7 +105,7 @@ hero section */
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     gap: 200px;
 
 }
@@ -208,14 +211,14 @@ hero section */
     height: 100vh;
  
     display: flex;
-
+    /* background-color: #000; */
     justify-content: center;
     align-items: stretch;
 
 }
 .cards__container{
     width: 98%;
-    height: 100vh;
+    height: 90vh;
    flex-direction: column;
     display: flex;
     
@@ -243,7 +246,7 @@ hero section */
 .card__text img{
     border-radius: 7px;
     width: 195px;
-    height: 40vh;
+    height: 38vh;
 }
 
 .card__text{
