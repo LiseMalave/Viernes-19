@@ -1,7 +1,18 @@
 @media (max-width:1370px) {
     .hero__img__container{
         margin-left: 80px;
+        
+    }
+    .container__login{
+        background-color: #000000d7;
+        border: 2px double var(--border--secondary);
+        
 
+    }
+
+    .container__registro{
+        background-color: #000000d7;
+        border: 2px double var(--border--secondary);
     }
     @keyframes transformar {
         from {
@@ -102,7 +113,7 @@
         padding-top: 10px;
         background-color: #cbc8cc3c;
         border-bottom: 2px double var(--border--secondary);
-        border-right: 2px double var(--border--secondary); ;
+        border-right: 2px double var(--border--secondary); 
         
         display: none;
     }
