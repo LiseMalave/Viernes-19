@@ -50,8 +50,11 @@
     
     }
     .about__info{
-        
+        justify-content: center;
         background-color: transparent;
+    }
+    .about__btn{
+        margin-top: 150px;
     }
     .contacto__map{
         display: none;
@@ -148,15 +151,36 @@
     }
     /* section about */
     #about{
+        justify-content: center;
         height: 95vh;
     }
     .about__info{
-        justify-content: center;
+
+        
         background-color:   #000000d7;
-        gap: 10px;
+        gap: 5px;
+        flex-direction: row;
+    }
+   
+    .about__text{
+        width: 60%;
+        line-height: 25px;
+        align-items: center;
+        order: 0;
+        
+        
     }
     .about__btn{
-        margin-top: 150px;
+        display: none;
+        /* margin-top: 200px;
+     order: 2;
+        justify-content: end;
+        background-color: beige; */
+    }
+    #about video{
+        width: 70%;
+        height: 40%;
+
     }
     .contacto__map{
         display: none;

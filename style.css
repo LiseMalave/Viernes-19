@@ -454,14 +454,16 @@ hero section */
 
 .foto__item:nth-child(1){
     background: url(/assets/img/fotos/IMG_20240117_221313971.jpg) center/cover;
-    grid-column: 1/ span;
+    grid-column: 1/ span 2;
 }
 
 .foto__item:nth-child(2){
     background: url(/assets/img/fotos/IMG_20240117_221344073.jpg) center/cover;
+
 }
 .foto__item:nth-child(3){
     background: url(/assets/img/fotos/IMG_20240117_221344073.jpg) center/cover;
+    grid-column: 1/span 3;
 }
 
 
