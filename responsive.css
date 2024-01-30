@@ -1,4 +1,4 @@
-@media (max-width:1370px) {
+@media (max-width:1389px) {
     .hero__img__container{
         margin-left: 80px;
         
@@ -37,13 +37,14 @@
 
     #banda{
         
-        height: 130vh;
-       
+        height: 150vh;
+        
         align-items: start;
       
     }
     .cards__container{
-        height: 120vh;
+        height: 140vh;
+        
         justify-content: start;
         margin-top: 90px;
        
@@ -51,13 +52,16 @@
  
     .card__block{
         flex-wrap: wrap;
+        
         gap: 40px;
+        height:120vh;
 
     }
     .card__text {
         border-radius: 7px;
         width: 258px;
-        height: 50vh;
+        background-color: #000000d7;
+        height: 55vh;
     
     }
     .about__info{
@@ -67,13 +71,30 @@
     .about__btn{
         margin-top: 150px;
     }
+    .contacto__container{
+       
+        gap: 20px;
+      
+        justify-content: center;
+         
+    }
     .contacto__map{
         display: none;
+    }
+    .contacto__form{
+        width: 20%;
     }
 
 }
 
-@media (max-width:895px) {
+@media (max-width:1110px){
+    .contacto__form {
+        width: 28%;
+    }
+}
+
+
+@media (max-width:909px) {
     .container__header{
        background-color: #cbc8cc3c;
        justify-content: start;
@@ -137,13 +158,14 @@
     /* card section */
     #banda{
         
-        height: 180vh;
+        height: 185vh;
        
         align-items: end;
       
     }
     .cards__container{
         height: 168vh;
+   
         justify-content: start;
         margin-top: 90px;
        
@@ -151,6 +173,8 @@
  
     .card__block{
         flex-wrap: wrap;
+        height: 159vh;
+        
         gap: 40px;
 
     }
@@ -169,13 +193,14 @@
 
         
         background-color:   #000000d7;
-        gap: 5px;
+      
         flex-direction: row;
     }
    
     .about__text{
         width: 60%;
-        line-height: 25px;
+        line-height: 38px;
+        text-align: center;
         align-items: center;
         order: 0;
         
@@ -196,6 +221,9 @@
     .contacto__map{
         display: none;
     }
+    .contacto__form{
+        width: 10%;
+    }
     /* section contacto  */
     .contacto__container{
        
@@ -203,6 +231,9 @@
       
         justify-content: center;
          
+    }
+    .contacto__form{
+        width: 70%;
     }
 
     
@@ -270,6 +301,73 @@
          
     }
 
-    
+    @media(max-width: 486px){
+        .hero__container{
+            background: url(/assets/img/logo/Viernes\ 19-hero.png) center/contain;
+        }
+
+        .hero__img__container{
+           /* justify-content: end;
+
+           width: 450px; */
+           display: none;
+        }
+
+        .hero__img__container:hover{
+            display: none;
+        }
+        
+        .about__text h4{
+           text-align: center;
+
+        }
+
+        .about__info{
+            flex-wrap: wrap;
+            background-color: #000000d7;
+            height: 75vh;
+            align-items: start;
+
+        }
+
+        .about__text{
+            width: 80%;
+            height: 60%;
+            align-items: center;
+            
+        }
+        #about video{
+            width: 98%;
+            height: 42%;
+        }
+
+        #contacto{
+            display: flex;
+            width: 100%;
+            
+            justify-content: center;
+        }
+        .contacto__container{
+            
+            flex-direction: column;
+            gap: 10px;
+        
+            padding-left: 35px;
+            justify-content: start;
+            align-items:center;
+             
+        }
+
+        .contacto__info{
+            width: 55%;
+            
+        }
+
+        .contacto__form{
+           
+            width: 70%;
+        }
+
+    }
 
 }
