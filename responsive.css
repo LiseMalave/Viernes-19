@@ -1,3 +1,5 @@
+
+
 @media (max-width:1389px) {
     .hero__img__container{
         margin-left: 80px;
@@ -84,6 +86,9 @@
     .contacto__form{
         width: 20%;
     }
+   
+
+
 
 }
 
@@ -91,6 +96,7 @@
     .contacto__form {
         width: 28%;
     }
+    
 }
 
 
@@ -221,9 +227,7 @@
     .contacto__map{
         display: none;
     }
-    .contacto__form{
-        width: 10%;
-    }
+   
     /* section contacto  */
     .contacto__container{
        
@@ -232,13 +236,49 @@
         justify-content: center;
          
     }
-    .contacto__form{
-        width: 70%;
+   .contacto__form{
+    width: 32%;
+   }
+
+    
+
+    
+}
+@media (max-width:945px){
+
+    .container__fotos {
+      
+        grid-template-columns: repeat(2,400px);
+        
     }
 
-    
+    .foto__item:nth-child(even),
+    .foto__item:nth-child(odd){
+        grid-column: auto;
+        grid-row: auto;
+    }
 
-    
+    .foto__item:nth-child(7){
+        grid-column: 1/span 2;
+    }
+}
+@media(max-width: 860px){
+    #fotos{
+        height: 250vh;
+    }
+    .container__fotos {
+        
+        grid-template-columns: 400px;
+        place-content: center;
+        
+    }
+    .foto__item:nth-child(even),
+    .foto__item:nth-child(odd){
+        grid-column: auto;
+        grid-row: auto;
+    }
+
+
 }
 
 @media(max-width: 576px){
@@ -293,12 +333,31 @@
     .about__btn{
         display: none;
     }
+    #contacto{
+        display: flex;
+        width: 100%;
+        
+        justify-content: center;
+    }
     .contacto__container{
-       
-        gap: 80px;
+        
+        flex-direction: column;
+        gap: 10px;
+    
         padding-left: 35px;
         justify-content: start;
+        align-items:center;
          
+    }
+
+    .contacto__info{
+        width: 55%;
+        
+    }
+
+    .contacto__form{
+       
+        width: 60%;
     }
 
     @media(max-width: 486px){
@@ -340,34 +399,16 @@
             width: 98%;
             height: 42%;
         }
-
-        #contacto{
-            display: flex;
-            width: 100%;
-            
-            justify-content: center;
-        }
-        .contacto__container{
-            
-            flex-direction: column;
-            gap: 10px;
-        
-            padding-left: 35px;
-            justify-content: start;
-            align-items:center;
-             
-        }
-
         .contacto__info{
-            width: 55%;
+            width: 75%;
             
         }
-
         .contacto__form{
-           
-            width: 70%;
+            width: 85%;
         }
+       
 
     }
+
 
 }
