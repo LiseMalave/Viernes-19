@@ -434,7 +434,12 @@
             
            
         }
-
+        .card__block{
+            gap: 48px;
+        }
+        .card__text{
+            height: 60vh;
+        }
         
         .about__text h4{
            text-align: center;
