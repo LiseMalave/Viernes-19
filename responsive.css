@@ -430,7 +430,7 @@
         .about__info{
             flex-wrap: wrap;
             background-color: #000000d7;
-            height: 75vh;
+            height: 79vh;
             align-items: start;
 
         }
@@ -444,6 +444,13 @@
         #about video{
             width: 98%;
             height: 42%;
+        }
+
+        .contacto__container{
+            height: 80vh;
+            
+            margin-top: 20px;
+            padding-top: 30px;
         }
         .contacto__info{
             width: 75%;
@@ -468,6 +475,10 @@
     .foto__item:nth-child(odd){
         grid-column: auto;
         grid-row: auto;
+    }
+
+    .foto__item:nth-child(7){
+        display: none;
     }
 
 
