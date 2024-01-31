@@ -4,7 +4,7 @@
 
 #login{
     width: 100%;
-    height: 82.5vh;
+    height: 87.5vh;
     background: var(--bg--nav);
     background: radial-gradient(circle farthest-side at top left, #cdaa39d9 18%, #6d6d3d 55%, #192319 80%);
     background: -webkit-radial-gradient(circle farthest-side at top left, #cdaa39d9 10%, #6d6d3d 40%, #192319 80%);
@@ -13,6 +13,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .container__login{
