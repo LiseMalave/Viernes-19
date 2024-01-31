@@ -421,11 +421,17 @@
         .hero__img__container:hover{
             display: none;
         }
+
+        #about{
+            height: 90vh;
+            background-color: #000000d7;
+        }
         
         .about__text h4{
            text-align: center;
 
         }
+
 
         .about__info{
             flex-wrap: wrap;
