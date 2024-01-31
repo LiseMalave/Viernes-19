@@ -171,7 +171,7 @@
       
     }
     .cards__container{
-        height: 168vh;
+        height: 170vh;
    
         justify-content: start;
         margin-top: 90px;
@@ -180,7 +180,7 @@
  
     .card__block{
         flex-wrap: wrap;
-        height: 159vh;
+        height: 160vh;
         
         gap: 40px;
 
@@ -188,7 +188,7 @@
     .card__text {
         border-radius: 7px;
         width: 258px;
-        height: 50vh;
+        height: 52vh;
     
     }
     /* section about */
