@@ -421,11 +421,20 @@
         .hero__img__container:hover{
             display: none;
         }
-
-        #about{
-            height: 90vh;
-            background-color: #000000d7;
+        #banda{
+        
+            height: 300vh;
+            align-items: start;
+          
         }
+        .cards__container{
+            height: 295vh;
+            justify-content: start;
+            margin-top: 0;
+            
+           
+        }
+
         
         .about__text h4{
            text-align: center;
