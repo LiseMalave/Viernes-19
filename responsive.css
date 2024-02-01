@@ -1,3 +1,31 @@
+@media (max-width:1514px) {
+    #banda{
+    height: 150vh;
+        
+    align-items: start;
+  
+}
+.cards__container{
+    height: 170vh;
+    
+    justify-content: start;
+    margin-top: 90px;
+   
+}
+
+.card__block{
+    flex-wrap: wrap;
+    
+    gap: 40px;
+    height:162vh;
+
+}
+
+#about{
+    
+    height: 100vh;
+    align-items: end;
+}
 
 
 @media (max-width:1389px) {
@@ -39,14 +67,14 @@
 
     #banda{
         
-        height: 150vh;
+        height: 190vh;
         
         align-items: start;
       
     }
     .cards__container{
-        height: 140vh;
-        
+        height: 180vh;
+       
         justify-content: start;
         margin-top: 90px;
        
@@ -56,22 +84,23 @@
         flex-wrap: wrap;
         
         gap: 40px;
-        height:120vh;
+        height:160vh;
 
     }
     .card__text {
         border-radius: 7px;
-        width: 258px;
-        background-color: #000000d7;
-        height: 55vh;
+        width: 288px;
+       
+        height: 75vh;
     
     }
     .about__info{
         justify-content: center;
         background-color: transparent;
     }
-    .about__btn{
-        margin-top: 150px;
+    .about__text{
+        height: 65%;
+        
     }
     .contacto__container{
        
@@ -97,11 +126,27 @@
         width: 28%;
     }
     
-    
+    .about__text{
+        height: 78%;
+    }
+}
+@media (max-width:940px) {
+    .card__block{
+        height: 260vh;
+        
+    }
+    #about{
+        height: 140vh;
+        
+    }
+    .about__text{
+        height: 81%;
+    }
 }
 
 
-@media (max-width:909px) {
+
+@media (max-width:910px) {
     .container__header{
        background-color: #cbc8cc3c;
        justify-content: start;
@@ -165,30 +210,30 @@
     /* card section */
     #banda{
         
-        height: 185vh;
+        height: 305vh;
        
         align-items: end;
       
     }
     .cards__container{
-        height: 170vh;
-   
+        height: 291vh;
+        
         justify-content: start;
-        margin-top: 90px;
+        /* margin-top: 90px; */
        
     }
  
     .card__block{
         flex-wrap: wrap;
-        height: 160vh;
+        height: 290vh;
         
-        gap: 40px;
+        gap: 10px;
 
     }
     .card__text {
         border-radius: 7px;
         width: 258px;
-        height: 52vh;
+        height: 72vh;
     
     }
     /* section about */
@@ -265,6 +310,11 @@
     }
 }
 @media(max-width: 860px){
+    .card__block{
+        height: 250vh;
+        
+    }
+
     #fotos{
         
         margin: 200px 0;
@@ -297,6 +347,17 @@
 
 }
 @media(max-width: 596px){
+    .card__block{
+        height: 260vh;
+        
+    }
+    .cards__container{
+        height: 280vh;
+        justify-content: start;
+        margin-top: 90px;
+        
+       
+    }
     .container__fotos {
       
         grid-template-columns: repeat(280px);
@@ -316,9 +377,18 @@
 @media(max-width: 576px){
     #banda{
         
-        height: 290vh;
+        height: 300vh;
         align-items: start;
       
+    }
+    .card__block{
+        
+            
+            height: 280vh;
+            
+            gap: 10px;
+    
+        
     }
     .cards__container{
         height: 280vh;
@@ -406,6 +476,17 @@
         grid-row: auto;
     }
 
+    @media(max-width: 525px){
+        #banda{
+            height: 410vh;
+            
+        }
+        .card__block{
+            height: 380vh;
+            display: block;
+            
+        }
+    }
     @media(max-width: 486px){
         .hero__container{
             background: url(/assets/img/logo/Viernes\ 19-hero.png) center/contain;
@@ -422,23 +503,24 @@
             display: none;
         }
         #banda{
-        
-            height: 300vh;
+            
+            height: 450vh;
             align-items: start;
           
         }
         .cards__container{
-            height: 295vh;
+            height: 395vh;
             justify-content: start;
             margin-top: 0;
             
            
+            
+           
         }
-        .card__block{
-            gap: 48px;
-        }
+        
         .card__text{
-            height: 60vh;
+            
+            height: 72vh;
         }
         
         .about__text h4{
@@ -502,4 +584,5 @@
     }
 
 
+}
 }
