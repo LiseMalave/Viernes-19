@@ -2,6 +2,7 @@
     #banda{
     height: 90vh;
     align-items: start;
+
     
   
 }
@@ -28,7 +29,7 @@
 
 #about{
     
-    height: 100vh;
+    height: 80vh;
     align-items: end;
 }
 
@@ -142,19 +143,49 @@
 }
 
 @media (max-width:1110px){
-    /* #banda{
-        height: 300vh;
+    #banda{
+        height: 130vh;
+        
        
-    } */
+    }
+
     .contacto__form {
         width: 28%;
     }
-    
-    .about__text{
-        height: 78%;
+    #about{
+        justify-content: center;
+        height: 60vh;
+        
     }
+    .about__info{
+
+        
+        justify-content: center;
+        flex-direction: row;
+    }
+   
+    .about__text{
+        width: 70%;
+       
+        height: 20%;
+        line-height: 38px;
+        text-align: center;
+        align-items: center;
+        order: 0;
+        
+        
+    }
+    .about__btn{
+        display: none;
+        
+    }
+    #about video{
+        width: 70%;
+        height: 40%;
+
+    } 
 }
-/* 
+
 @media (max-width:913px) {
 
     .card__block{
@@ -168,7 +199,7 @@
     .about__text{
         height: 81%;
     }
-} */
+}
 
 
 
@@ -236,7 +267,7 @@
     /* card section */
     #banda{
         
-        height: 125vh;
+        height: 135vh;
       
         align-items: start;
       
@@ -263,39 +294,7 @@
     
     }
     /* section about */
-    #about{
-        justify-content: center;
-        height: 95vh;
-    }
-    .about__info{
-
-        
-        background-color:   #000000d7;
-      
-        flex-direction: row;
-    }
    
-    .about__text{
-        width: 60%;
-        line-height: 38px;
-        text-align: center;
-        align-items: center;
-        order: 0;
-        
-        
-    }
-    .about__btn{
-        display: none;
-        /* margin-top: 200px;
-     order: 2;
-        justify-content: end;
-        background-color: beige; */
-    }
-    #about video{
-        width: 70%;
-        height: 40%;
-
-    }
     .contacto__map{
         display: none;
     }
@@ -318,7 +317,35 @@
     
 }
 @media (max-width:945px){
-    
+    #about{
+        align-items: start;
+        height: 80vh;
+    }
+    .about__text h4{
+        text-align: center;
+
+     }
+
+
+     .about__info{
+         flex-wrap: wrap;
+         background-color: #000000d7;
+         height: 75vh;
+         align-items: start;
+
+     }
+
+     .about__text{
+         width: 80%;
+         height: 40%;
+         align-items: center;
+         
+     }
+     #about video{
+         width: 98%;
+         height: 42%;
+     }
+        
     .container__fotos {
       
         grid-template-columns: repeat(2,400px);
@@ -335,7 +362,7 @@
         grid-column: 1/span 2;
     }
 }
-@media(max-width: 874px)and(max-height:876px){
+@media(max-width: 874px){
     #banda{
        
         height: 360vh;
@@ -343,11 +370,11 @@
     }
     .cards__container{
         width: 55%;
-        height: 348vh;
+        height: 358vh;
         
     }
     .card__block{
-        /* background-color: blanchedalmond; */
+       
         height: 340vh;
         
     }
@@ -384,7 +411,7 @@
 
 
 }
-@media(max-width: 597px)and (max-height:597px){
+@media(max-width: 597px){
 
     .container__fotos {
       
@@ -417,44 +444,13 @@
       
     }
 
-    #about{
-        
-        background-color: black;
-        height: 90vh;
-        flex-wrap: wrap;
-     
-    }
-
-    .about__info{
-        height: 60vh;
-        width: 90vw;
-        flex-wrap: nowrap;
-        background-color: #cbc8cc3c;
-        
-    }
-    .about__text{
-        width: 60%;
-        
-    }
-    #about video{
-        width: 85%;
-        height: 70%;
-    }
-
-    .about__btn{
-        display: none;
-    }
-    #contacto{
-        display: flex;
-        width: 100%;
-        
-        justify-content: center;
-    }
+       
     .contacto__container{
-        
+       
         flex-direction: column;
         gap: 10px;
-    
+        margin-top: 70px;
+       height: 85vh;
         padding-left: 35px;
         justify-content: start;
         align-items:center;
@@ -463,19 +459,22 @@
 
     .contacto__info{
         width: 55%;
+    
         
     }
 
     .contacto__form{
-       
-        width: 60%;
+      
+        min-width: 55%;
+        
     }
     #fotos{
-        height: 290vh;
+        height: 350vh;
+        background-color: #000000d7;
     }
     .container__fotos {
         
-        grid-template-columns: 400px;
+        grid-template-columns: 320px;
         place-content: center;
         
     }
@@ -486,9 +485,33 @@
     }
 }
 @media(max-width: 525px){
+    .about__text h4{
+        text-align: center;
+
+     }
+
+
+     .about__info{
+         flex-wrap: wrap;
+         background-color: #000000d7;
+         height: 79vh;
+         align-items: start;
+
+     }
+
+     .about__text{
+         width: 80%;
+         height: 60%;
+         align-items: center;
+         
+     }
+     #about video{
+         width: 98%;
+         height: 42%;
+     }
         
         .cards__container{
-                     
+            
             width: 80%;
         }
         .card__block{
@@ -531,6 +554,7 @@
     }
         .about__text h4{
            text-align: center;
+         
 
         }
 
@@ -538,14 +562,18 @@
         .about__info{
             flex-wrap: wrap;
             background-color: #000000d7;
-            height: 79vh;
+            height: 75vh;
             align-items: start;
 
+        }
+        .about__text p{
+            font-size: 18px;
+            line-height: 20px;
         }
 
         .about__text{
             width: 80%;
-            height: 60%;
+            height: 30%;
             align-items: center;
             
         }
@@ -564,18 +592,13 @@
             width: 75%;
             
         }
-        .contacto__form{
-            width: 85%;
-        }
+       
        
 
     
-    #fotos{
-        height: 250vh;
-    }
     .container__fotos {
         
-        grid-template-columns: 400px;
+        grid-template-columns: 320px;
         place-content: center;
         
     }
@@ -599,15 +622,15 @@
     }
     #banda{
        
-        height: 590vh;
+        height: 520vh;
     }
 
     .cards__container{
        
-        height: 560vh;
+        height: 500vh;
     }
     .card__block{
-        height: 550vh;
+        height: 490vh;
        
     }
     .card__text{
@@ -618,17 +641,17 @@
     }
     #about{
         
-        height: 280vh;
+        height: 200vh;
         justify-content: center;
         align-items: start;
     }
     .about__info{
-        height: 190vh;
+        height: 150vh;
         font-size: 19px;
         justify-content: center;
         align-items: center;
         padding: 10px 0;
-        
+        background-color: #000000d7;
     }
 
     .about__text{
@@ -639,6 +662,14 @@
     #about video{
         width: 75%;
         height: 40%;
+    }
+    .contacto__container{
+        
+        height: 100vh;
+     }
+    #fotos{
+        height: 500vh;
+  
     }
     }
 
