@@ -622,15 +622,17 @@
     }
     #banda{
        
-        height: 520vh;
+        height: 890vh;
+       
     }
 
     .cards__container{
        
-        height: 500vh;
+        height: 865vh;
     }
     .card__block{
-        height: 490vh;
+        height: 860vh;
+    
        
     }
     .card__text{
@@ -640,7 +642,7 @@
 
     }
     #about{
-        
+       
         height: 200vh;
         justify-content: center;
         align-items: start;
@@ -664,8 +666,7 @@
         height: 40%;
     }
     .contacto__container{
-        
-        height: 100vh;
+        height: 120vh;
      }
     #fotos{
         height: 500vh;
