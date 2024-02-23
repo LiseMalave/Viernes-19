@@ -20,7 +20,7 @@
 
 .card__block{
     flex-wrap: wrap;
-    gap: 34px;
+    /* gap: 34px; */
 }
 
 #about{
@@ -456,21 +456,10 @@
         min-height: 65vh;
       
     }
-    #banda{
-       
-        height: 890vh;
-       
-    }
+   
 
-    .cards__container{
-       
-        height: 865vh;
-    }
-    .card__block{
-        height: 860vh;
-    
-       
-    }
+  
+ 
     .card__text{
         
         width: 300px;
