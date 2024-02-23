@@ -1,11 +1,8 @@
 @media (max-width:1514px) {
     #banda{
-    
     align-items: start;
-    background-color: black;
-    
-  
-}
+       
+  }
 
 .card__text{
     width: 21vw;
@@ -23,10 +20,7 @@
 
 .card__block{
     flex-wrap: wrap;
-    
     gap: 34px;
-    
-
 }
 
 #about{
@@ -232,22 +226,8 @@
     }
 }
 @media(max-width: 874px){
-    #banda{
-       
-        height: 360vh;
-        
-    }
-    .cards__container{
-        width: 55%;
-        height: 358vh;
-        
-    }
-    .card__block{
-       
-        height: 340vh;
-        
-    }
-
+    
+   
 
     #fotos{
         
@@ -406,21 +386,8 @@
             display: none;
         }
        
-         #banda{
        
-        height: 380vh;
-        
-    }
-    .cards__container{
-        width: 55%;
-        height: 348vh;
-        
-    }
-    .card__block{
-       
-        height: 340vh;
-        
-    }
+ 
         .about__text h4{
            text-align: center;
          
