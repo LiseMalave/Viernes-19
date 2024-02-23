@@ -191,18 +191,14 @@ hero section */
 #banda {
   width: 100%;
   min-width: 300px;
-  /* height: 100vh; */
-  /* min-width: 10rem ; */
   display: flex;
- 
+
   justify-content: center;
   align-items: stretch;
 }
 .cards__container {
   width: 100%;
-
   margin-top: 90px;
-  /* height: 90vh; */
   flex-direction: column;
   display: flex;
   justify-content: space-around;
@@ -221,27 +217,21 @@ hero section */
   justify-content: center;
   gap: 10px;
   max-width: 1500px;
- 
-  /* height: 100vh; */
 }
 
 .card__text img {
   border-radius: 7px;
   max-width: 200px;
-  /* height: 38vh; */
   min-width: 195px;
   min-height: 398px;
   max-height: 400px;
 }
 
 .card__text {
-  /* width: 390px; */
   width: 38%;
-  /* max-height: 600px; */
   display: flex;
   flex-direction: column;
   align-items: center;
-
   justify-content: center;
   text-align: justify;
   border: 2px double var(--border--secondary);
@@ -262,10 +252,6 @@ hero section */
   transform: translate(0px, -32px);
   -webkit-transform: translate(0px, -32px);
   -moz-transform: translate(0px, -42px);
-
-  /* transform: scale(1.2) translate(1px,-4px);
--webkit-transform: scale(1.2) translate(1px,4px);
--moz-transform: scale(1.2) translate(1px,4px); */
   background-color: #00000086;
   transition: all 0.2s ease-in-out;
   filter: sepia(3.5);
@@ -277,16 +263,13 @@ hero section */
 #about {
   margin-top: 80px;
   width: 100%;
-  height: 70vh;
 
   display: flex;
   justify-content: space-around;
-
   align-items: center;
 }
 .about__info {
   display: flex;
-
   width: 65%;
   background-color: #edba131a;
   border: 2px double var(--border--secondary);
@@ -316,7 +299,6 @@ hero section */
 
 #about video {
   width: 50%;
-  height: 100%;
   background-color: #c3971113;
   border-radius: 15px;
 }
@@ -334,18 +316,16 @@ hero section */
 /* contact section */
 
 .contacto__container {
-  /* margin-top: 150px; */
+  padding: 50px;
   width: 100%;
-  height: 82vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
-
   margin-bottom: 50px;
 }
 .contacto__info {
   width: 35%;
-  height: 350px;
+  padding: 50px;
   background-color: #6d6d3d7e;
   border-radius: 20px;
   display: flex;
@@ -363,8 +343,6 @@ hero section */
 }
 .contacto__map {
   width: 30%;
-  height: 50vh;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -376,8 +354,6 @@ hero section */
   justify-content: center;
   width: 15%;
   line-height: 35px;
-
-  height: 50vh;
 }
 
 .contacto__form input {
