@@ -1,17 +1,19 @@
 @media (max-width:1514px) {
     #banda{
-    height: 90vh;
+    
     align-items: start;
-
+    background-color: black;
     
   
 }
+
 .card__text{
-    width: 250px;
-    max-height: 600px;
+    width: 21vw;
+   
+    
 }
 .cards__container{
-    height: 80vh;
+   
     
     justify-content: start;
     margin-top: 90px;
@@ -22,8 +24,8 @@
 .card__block{
     flex-wrap: wrap;
     
-    gap: 5px;
-    height:162vh;
+    gap: 34px;
+    
 
 }
 
@@ -34,121 +36,16 @@
 }
 
 }
-/* @media (max-width:1389px) {
-    .hero__img__container{
-        margin-left: 80px;
-        
-    }
-    .container__login{
-        background-color: #000000d7;
-        border: 2px double var(--border--secondary);
-        
-
-    }
-
-    .container__registro{
-        background-color: #000000d7;
-        border: 2px double var(--border--secondary);
-    }
-    @keyframes transformar {
-        from {
-          background-color: #19231933;
-          border-radius: 20%;
-          width: 460px;
-          margin-left: 80px;
-          height: 460px;
-          
-        }
-      
-        to {
-            transform: scale(1.3);
-            background-color: #000000d7;
-           
-            box-shadow: 1px 1px 80px 61px rgba(0, 0, 0, 0.162);
-            transition: all 3s;
-            filter: brightness(0.95);
-            filter: saturate(0.9);
-        }
-      }
-
-    #banda{
-        
-        height: 190vh;
-        
-        align-items: start;
-      
-    }
-    .cards__container{
-        height: 180vh;
-       
-        justify-content: start;
-        margin-top: 90px;
-       
-    }
- 
-    .card__block{
-        flex-wrap: wrap;
-        
-        gap: 40px;
-        height:160vh;
-
-    }
-    .card__text {
-        border-radius: 7px;
-        width: 288px;
-       
-        height: 75vh;
-    
-    }
-    .about__info{
-        justify-content: center;
-        background-color: transparent;
-    }
-    .about__text{
-        height: 65%;
-        
-    }
-    .contacto__container{
-       
-        gap: 20px;
-      
-        justify-content: center;
-         
-    }
-    .contacto__map{
-        display: none;
-    }
-    .contacto__form{
-        width: 20%;
-    }
-   
 
 
-
-} */
-@media (max-width:1276px){
-    #banda{
-        width: 100%;
-        /* height: 258vh; */
-        height: 110vh;
-      
-        justify-content: center;
-    }
-    .cards__container{
-     
-        width: 90%;
-        height: 100vh;
-        justify-content: center;
-    }
-}
-
-@media (max-width:1110px){
-    #banda{
-        height: 130vh;
-        
-       
-    }
-
+@media (max-width:1175px){
+    /* card section */
+   #banda{
+        width: auto;
+   }
+   .card__text{
+        width: auto;
+   }
     .contacto__form {
         width: 28%;
     }
@@ -188,10 +85,7 @@
 
 @media (max-width:913px) {
 
-    .card__block{
-        height: 260vh;
-        
-    }
+   
     #about{
         height: 140vh;
         
@@ -264,35 +158,10 @@
     .hero__info__container{
         display: none;
     }
-    /* card section */
-    #banda{
-        
-        height: 135vh;
-      
-        align-items: start;
-      
-    }
-    .cards__container{
-        height: 110vh;
-       
-        justify-content: start;
-        /* margin-top: 90px; */
-       
-    }
- 
-    .card__block{
-        flex-wrap: wrap;
-        height: 100vh;
-        
-        gap: 5px;
-
-    }
-    .card__text {
-        border-radius: 7px;
-        width: 258px;
-        height: 72vh;
+   
     
-    }
+ 
+   
     /* section about */
    
     .contacto__map{
