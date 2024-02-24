@@ -374,7 +374,6 @@ hero section */
 #fotos {
   width: 100%;
   display: flex;
-  /* gap: 40px; */
   justify-content: center;
   align-items: center;
   background: url(/assets/img/fotos/img-1.jpg) right/cover;

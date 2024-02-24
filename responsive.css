@@ -295,11 +295,11 @@
     grid-column: auto;
     grid-row: auto;
   }
-
-  .foto__item:nth-child(7) {
-    display: none;
-  }
 }
+  /* .foto__item:nth-child(7) {
+    display: none;
+  } */
+/* }
 @media (max-height: 914px) {
   .nav__bar__list {
     top: 89px;
@@ -338,4 +338,4 @@
   #fotos {
     height: 500vh;
   }
-}
+} */
