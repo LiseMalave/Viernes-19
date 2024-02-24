@@ -115,7 +115,7 @@
     display: none;
   }
   .contacto__container {
-    gap: 20px;
+    /* gap: 20px; */
     justify-content: center;
   }
   .contacto__form {
@@ -139,8 +139,6 @@
 
   .about__text {
     width: auto;
-    height: auto;
-
     align-items: center;
   }
   #about video {

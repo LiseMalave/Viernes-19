@@ -263,7 +263,7 @@ hero section */
 #about {
   margin-top: 80px;
   width: 100%;
-
+  padding-top: 100px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -381,6 +381,7 @@ hero section */
   flex-direction: column;
   font-size: 38px;
   position: relative;
+  padding-top: 10px;
   padding-bottom: 50px;
 }
 #fotos * {
