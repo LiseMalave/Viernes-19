@@ -373,7 +373,6 @@ hero section */
 /* fotos section */
 #fotos {
   width: 100%;
-  height: 195vh;
   display: flex;
   gap: 40px;
   justify-content: center;
@@ -382,6 +381,7 @@ hero section */
   flex-direction: column;
   font-size: 38px;
   position: relative;
+  padding-bottom: 50px;
 }
 #fotos * {
   position: relative;
@@ -413,8 +413,6 @@ hero section */
 .foto__item {
   position: relative;
   border-radius: 1rem;
-  /* width: 520px;
-    height: 280px;  */
 }
 
 .foto__item:nth-child(1) {

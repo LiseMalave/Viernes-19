@@ -116,7 +116,6 @@
   }
   .contacto__container {
     gap: 20px;
-
     justify-content: center;
   }
   .contacto__form {
@@ -165,19 +164,17 @@
 }
 @media (max-width: 874px) {
   .contacto__info {
+    padding: 50px;
     text-align: center;
   }
   #fotos {
     margin: 200px 0;
-    height: 200vh;
     background: none;
     background-color: transparent;
-    /*position: unset; */
   }
   #fotos::before {
     background-color: transparent;
     display: none;
-    height: 250vh;
   }
   .container__fotos {
     grid-template-columns: repeat(2, 300px);
@@ -219,6 +216,7 @@
   .contacto__container {
     flex-direction: column;
     gap: 10px;
+
     margin-top: 70px;
     padding-left: 35px;
     justify-content: start;
@@ -228,13 +226,11 @@
   .contacto__info {
     width: auto;
   }
-  .contacto__form{
-    width: auto;
+  .contacto__form {
+    width: 40vw;
+    padding: 30px;
   }
 
-  #fotos {
-    height: 350vh;
-  }
   .container__fotos {
     grid-template-columns: 320px;
     place-content: center;
@@ -298,6 +294,7 @@
   .contacto__info {
     width: 75%;
   }
+  
 
   .container__fotos {
     grid-template-columns: 320px;
