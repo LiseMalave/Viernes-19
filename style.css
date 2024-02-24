@@ -261,7 +261,7 @@ hero section */
 /* section about */
 
 #about {
-  margin-top: 80px;
+  margin-top: 100px;
   width: 100%;
   padding-top: 100px;
   display: flex;
@@ -380,8 +380,8 @@ hero section */
   flex-direction: column;
   font-size: 38px;
   position: relative;
-  padding-top: 10px;
-  padding-bottom: 20px;
+  padding-top: 100px;
+  padding-bottom: 40px;
 }
 #fotos * {
   position: relative;
