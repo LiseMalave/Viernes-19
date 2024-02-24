@@ -240,16 +240,11 @@
   }
 }
 @media (max-width: 486px) {
-  .hero__container {
-    background: url(/assets/img/logo/Viernes\ 19-hero.png) center/contain;
-  }
+  /* .hero__container {
+    background: url(/assets/img/logo/Viernes\ 19-hero.png) top/contain;
+  } */
 
-  .hero__img__container {
-    /* justify-content: end;
-
-           width: 450px; */
-    display: none;
-  }
+ 
 
   .hero__img__container:hover {
     display: none;
@@ -262,7 +257,7 @@
   .about__info {
     flex-wrap: wrap;
     background-color: #000000d7;
-    align-items: start;
+    align-items: center;
   }
   .about__text p {
     font-size: 18px;
