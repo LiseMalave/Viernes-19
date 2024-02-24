@@ -165,15 +165,7 @@
     padding: 50px;
     text-align: center;
   }
-  #fotos {
-    margin: 200px 0;
-    background: none;
-    background-color: transparent;
-  }
-  #fotos::before {
-    background-color: transparent;
-    display: none;
-  }
+  
   .container__fotos {
     grid-template-columns: repeat(2, 300px);
     place-content: center;
@@ -319,7 +311,6 @@
     height: 608px;
   }
   #about {
-    height: 200vh;
     justify-content: center;
     align-items: start;
   }

@@ -374,7 +374,7 @@ hero section */
 #fotos {
   width: 100%;
   display: flex;
-  gap: 40px;
+  /* gap: 40px; */
   justify-content: center;
   align-items: center;
   background: url(/assets/img/fotos/img-1.jpg) right/cover;
@@ -382,7 +382,7 @@ hero section */
   font-size: 38px;
   position: relative;
   padding-top: 10px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 #fotos * {
   position: relative;
@@ -395,14 +395,12 @@ hero section */
   opacity: 2;
   mix-blend-mode: darken;
   width: 100%;
-  height: 100%;
   background-color: #6d6d3d;
 }
 
 .container__fotos {
   width: 90%;
 
-  min-height: 90vh;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-auto-rows: 400px;
