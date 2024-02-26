@@ -48,8 +48,8 @@
     display: none;
   }
   #about video {
-    width: 70%;
-    height: 40%;
+   max-width: 100%;
+    height: auto;
   }
 }
 
@@ -141,10 +141,10 @@
     width: auto;
     align-items: center;
   }
-  #about video {
+  /* #about video {
     width: 98%;
     height: 42%;
-  }
+  } */
 
   .container__fotos {
     grid-template-columns: repeat(2, 400px);
@@ -240,10 +240,6 @@
   }
 }
 @media (max-width: 486px) {
-  /* .hero__container {
-    background: url(/assets/img/logo/Viernes\ 19-hero.png) top/contain;
-  } */
-
  
 
   .hero__img__container:hover {
@@ -267,10 +263,10 @@
   .about__text {
     align-items: center;
   }
-  #about video {
+  /* #about video {
     width: 98%;
     height: 42%;
-  }
+  } */
 
   .contacto__container {
     margin-top: 20px;
@@ -291,46 +287,3 @@
     grid-row: auto;
   }
 }
-  /* .foto__item:nth-child(7) {
-    display: none;
-  } */
-/* }
-@media (max-height: 914px) {
-  .nav__bar__list {
-    top: 89px;
-    min-height: 65vh;
-  }
-
-  .card__text {
-    width: 300px;
-    height: 608px;
-  }
-  #about {
-    justify-content: center;
-    align-items: start;
-  }
-  .about__info {
-    height: 150vh;
-    font-size: 19px;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 0;
-    background-color: #000000d7;
-  }
-
-  .about__text {
-    align-items: center;
-
-    height: 40%;
-  }
-  #about video {
-    width: 75%;
-    height: 40%;
-  }
-  .contacto__container {
-    height: 120vh;
-  }
-  #fotos {
-    height: 500vh;
-  }
-} */
