@@ -274,9 +274,6 @@ hero section */
   background-color: #edba131a;
   border: 2px double var(--border--secondary);
   border-radius: 20px;
-  /* height: 60vh; */
-  flex-direction: column;
-  flex-wrap: wrap;
   justify-content: end;
   padding: 40px;
   align-items: center;
@@ -284,28 +281,31 @@ hero section */
 .about__text {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: baseline;
-  align-items: start;
+  align-items: center;
   line-height: 30px;
-
-  width: 40%;
- 
+  gap: 10px;
+  width: 70%;
 }
 .about__info h4 {
   font-size: 39px;
   letter-spacing: 1px;
   padding: 20px 0;
-  gap:8%;
+  gap: 8%;
 }
 
 #about video {
-  width: 100%;
+  width: 80%;
   background-color: #c3971113;
   border-radius: 15px;
 }
 
 .about__btn {
   border: solid;
+  width: 150px;
+  align-items: center;
+  
   padding: 15px 20px;
   border-radius: 22px;
 }
