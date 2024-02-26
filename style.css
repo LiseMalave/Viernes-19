@@ -178,12 +178,14 @@ hero section */
   color: var(--primary);
   font-family: "Bebas Neue", sans-serif;
   border-radius: 20px;
-  padding: 5px 10px;
+  padding: 10px 25px 10px 15px;
+  font-size: 1rem;
 }
 
 .hero__info__container button:hover {
   background-color: var(--bg);
   letter-spacing: 1px;
+  padding: 10px 95px 10px 15px;
 }
 
 /* card section */
@@ -305,7 +307,7 @@ hero section */
   border: solid;
   width: 150px;
   align-items: center;
-  
+
   padding: 15px 20px;
   border-radius: 22px;
 }
