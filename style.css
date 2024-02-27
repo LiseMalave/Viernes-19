@@ -244,6 +244,7 @@ hero section */
 }
 .card__text p {
   width: 280px;
+  font-size: 19px;
   margin: 15px 0px;
   display: flex;
   justify-content: center;

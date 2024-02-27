@@ -180,6 +180,18 @@
   }
 }
 @media (max-width: 597px) {
+  .hero__container{
+    background-color: transparent;
+    background: url(/assets/img/logo/Viernes\ 19\ -\ copia.png) center;
+    
+
+  }
+  .hero__img__container{
+    display: none;
+    
+    
+    
+  }
   .container__fotos {
     grid-template-columns: repeat(280px);
   }
