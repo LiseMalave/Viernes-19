@@ -75,17 +75,17 @@
   }
   .nav__bar__list {
     position: absolute;
-    top: 86px;
+    top: 88px;
 
-    right: 65%;
-    min-height: 25vh;
+    right: 82%;
+    min-height: 21vh;
     border-radius: 2.5%;
-    width: 35%;
+    width: 18%;
     display: flex;
     justify-content: start;
     flex-direction: column;
     align-items: start;
-    padding-left: 30px;
+    padding-left: 20px;
     padding-top: 10px;
     background-color: #cbc8cc3c;
     border-bottom: 2px double var(--border--secondary);
