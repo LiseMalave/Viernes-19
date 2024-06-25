@@ -264,6 +264,7 @@ hero section */
 /* section about */
 
 #about {
+  
   margin-top: 100px;
   width: 100%;
   padding-top: 100px;
@@ -273,23 +274,28 @@ hero section */
 }
 .about__info {
   display: flex;
-  width: 65%;
-  background-color: #edba131a;
-  border: 2px double var(--border--secondary);
-  border-radius: 20px;
+  flex-direction: column;
+  width: 55%;
+ 
+  
+  
+  gap: 20px;
   justify-content: end;
   padding: 40px;
   align-items: center;
 }
 .about__text {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  background-color: var(--bg--cards);
+  border-radius: 20px;
+  border: 2px double var(--border--secondary);
+  /* flex-wrap: wrap; */
   justify-content: baseline;
   align-items: center;
   line-height: 30px;
-  gap: 10px;
-  width: 70%;
+  gap: 15px;
+  padding: 40px 70px;
+  width: 100%;
 }
 .about__info h4 {
   font-size: 39px;
@@ -301,6 +307,7 @@ hero section */
 #about video {
   width: 80%;
   background-color: #c3971113;
+  border: 2px double var(--border--secondary);
   border-radius: 15px;
 }
 
