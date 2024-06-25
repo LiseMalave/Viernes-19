@@ -295,6 +295,7 @@ hero section */
 }
 .about__info h3 {
   font-size: 35px;
+  text-align: center;
   letter-spacing: 1px;
   padding: 20px 0;
   gap: 8%;
