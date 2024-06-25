@@ -138,15 +138,7 @@ hero section */
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
-/* .hero__img__container:hover{
-    transform: scale(1.2) skew(-1deg);
-    background-color: #000000d7;
-   
-    box-shadow: 1px 1px 80px 61px rgba(0, 0, 0, 0.162);
-    transition: all 2s;
-    filter: brightness(0.95);
-    filter: saturate(0.9);
-} */
+
 
 .hero__img__container img {
   width: 600px;
@@ -200,7 +192,6 @@ hero section */
 }
 .cards__container {
   width: 100%;
-  margin-top: 90px;
   flex-direction: column;
   display: flex;
   justify-content: space-around;
@@ -322,6 +313,13 @@ hero section */
 }
 /* contact section */
 
+#contacto{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
 .contacto__container {
   padding: 50px;
   width: 100%;
@@ -330,6 +328,7 @@ hero section */
   align-items: center;
   margin-bottom: 50px;
 }
+
 .contacto__info {
   width: 35%;
   padding: 50px;
@@ -354,28 +353,58 @@ hero section */
   justify-content: center;
   align-items: center;
 }
+.contacto__form__container{
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+}
 .contacto__form {
   display: flex;
-  flex-direction: column;
-  padding: 45px;
+  background-color: #6d6d3d;
+  padding: 55px;
+  border-radius: 10px;
   justify-content: center;
-  width: 15%;
+  width: 50%;
   line-height: 35px;
 }
 
+form{
+  display: flex;
+  padding: 12px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
 .contacto__form input {
+  width: 50vh;
+  text-align: center;
   background-color: var(--bg--cards);
   border-radius: 4px;
   border-color: #000;
+  padding: 10px 10px;
+  margin: 10px 0;
 }
 .contacto__form textarea {
+  display: flex;
+  margin: 10px 0;
   background-color: var(--bg--cards);
   border-radius: 4px;
   resize: none;
 }
-.contacto__form input {
-  padding: 3px 10px;
+.contacto__button{
+  margin-top: 50px;
+  width: 100px;
+  background-color: #6d6d3d;
+  color: var(--primary);
+  font-family: "Bebas Neue", sans-serif;
+  border-radius: 4px;
+  padding: 10px 25px 10px 15px;
+  font-size: 1rem;
 }
+
 
 /* fotos section */
 #fotos {
