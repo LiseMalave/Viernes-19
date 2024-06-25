@@ -19,6 +19,9 @@
   #about video {
     width: 85%;
   }
+  .contacto__form{
+    width: 90%;
+  }
 }
 
 @media (max-width: 1175px) {
@@ -29,9 +32,7 @@
   .card__text {
     width: auto;
   }
-  .contacto__form {
-    width: 28%;
-  }
+ 
  
   
 
@@ -106,8 +107,8 @@
     /* gap: 20px; */
     justify-content: center;
   }
-  .contacto__form {
-    width: 32%;
+  .contacto__form{
+    background-color: transparent;
   }
 }
 @media (max-width: 945px) {
@@ -149,9 +150,17 @@
   }
 }
 @media (max-width: 874px) {
-  
+  .contacto__container {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 70px;
+    padding-left: 35px;
+    justify-content: start;
+    align-items: center;
+  }
   .contacto__info {
     padding: 50px;
+    width: 50%;
     text-align: center;
   }
   
@@ -190,6 +199,7 @@
     grid-column: auto;
     grid-row: auto;
   }
+  
 }
 
 @media (max-width: 576px) {
@@ -204,23 +214,15 @@
     box-shadow: -1px 66px 50px 6px rgba(0, 0, 0, 0.34);
   }
 
-  .contacto__container {
-    flex-direction: column;
-    gap: 10px;
 
-    margin-top: 70px;
-    padding-left: 35px;
-    justify-content: start;
-    align-items: center;
-  }
 
   .contacto__info {
     width: auto;
   }
-  .contacto__form {
+  /* .contacto__form {
     width: 40vw;
     padding: 30px;
-  }
+  } */
 
   .container__fotos {
     grid-template-columns: 320px;
@@ -276,7 +278,13 @@
   .contacto__info {
     width: 75%;
   }
-  
+  .contacto__form input{
+    width: 35vh;
+  }
+
+  .contacto__form textarea{
+    
+  }
 
   .container__fotos {
     grid-template-columns: 320px;

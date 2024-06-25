@@ -355,7 +355,7 @@ hero section */
 }
 .contacto__form__container{
   display: flex;
-  width: 60%;
+  width: 70%;
   justify-content: center;
   align-items: center;
 }
@@ -366,7 +366,8 @@ hero section */
   border-radius: 10px;
   justify-content: center;
   width: 50%;
-  line-height: 35px;
+  line-height: 19px;
+
 }
 
 form{
@@ -379,7 +380,7 @@ form{
 }
 
 .contacto__form input {
-  width: 50vh;
+  width: 45vh;
   text-align: center;
   background-color: var(--bg--cards);
   border-radius: 4px;
@@ -393,6 +394,7 @@ form{
   background-color: var(--bg--cards);
   border-radius: 4px;
   resize: none;
+  border-color: #000;
 }
 .contacto__button{
   margin-top: 50px;
