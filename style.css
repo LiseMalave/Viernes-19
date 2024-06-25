@@ -209,7 +209,7 @@ hero section */
 }
 
 .cards__container h3 {
-  font-size: 39px;
+  font-size: 35px;
   letter-spacing: 1px;
 }
 
@@ -275,39 +275,34 @@ hero section */
 .about__info {
   display: flex;
   flex-direction: column;
-  width: 55%;
- 
-  
-  
-  gap: 20px;
+  width: 50%;
+  background-color: var(--bg--cards);
+  border: 2px double var(--border--secondary);
+  border-radius: 20px;
   justify-content: end;
   padding: 40px;
+  gap:20px;
   align-items: center;
 }
 .about__text {
   display: flex;
-  background-color: var(--bg--cards);
-  border-radius: 20px;
-  border: 2px double var(--border--secondary);
   /* flex-wrap: wrap; */
   justify-content: baseline;
   align-items: center;
   line-height: 30px;
-  gap: 15px;
-  padding: 40px 70px;
-  width: 100%;
+  gap: 50px;
+  width: 90%;
 }
-.about__info h4 {
-  font-size: 39px;
+.about__info h3 {
+  font-size: 35px;
   letter-spacing: 1px;
   padding: 20px 0;
   gap: 8%;
 }
 
 #about video {
-  width: 80%;
+  width: 60%;
   background-color: #c3971113;
-  border: 2px double var(--border--secondary);
   border-radius: 15px;
 }
 
